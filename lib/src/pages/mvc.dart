@@ -33,7 +33,7 @@ class _MVCPageState extends StateMVC<MVCPage> {
               'You have pushed the button this many times:',
             ),
             Text(
-              _controller.count.toString(),
+              _controller.model.count.toString(),
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
